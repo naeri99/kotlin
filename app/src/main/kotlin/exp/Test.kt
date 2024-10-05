@@ -15,7 +15,12 @@ class Test{
     }
     
     fun testInheritance(){
-        val test: SubTwo = SubTwo()
+        val test1: SubOne = SubOne("jane", 10)
+        test1.defence()
+        test1.attack()
+
+
+        val test: SubTwo = SubTwo("brother", 100)
         test.powerAttack()
         test.attack()
     }
