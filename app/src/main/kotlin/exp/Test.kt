@@ -3,8 +3,8 @@ package exp
 
 import exp.example.CollectionTest
 import exp.example.Matrix
-import exp.example.Inheritance
-import exp.example.Sub
+import exp.example.SubOne
+import exp.example.SubTwo
 
 
 class Test{
@@ -15,7 +15,9 @@ class Test{
     }
     
     fun testInheritance(){
-        val test: Inheritance = Inheritance()
+        val test: SubTwo = SubTwo()
+        test.powerAttack()
+        test.attack()
     }
 
     fun makeClass(){

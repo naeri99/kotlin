@@ -1,9 +1,7 @@
 package exp.example
 
-class Inheritance{
-
-    constructor(){
-        println("inheritance start")
+open class Inheritance(){
+    fun attack(){
+        println("complicated attack")
     }
- 
 }
